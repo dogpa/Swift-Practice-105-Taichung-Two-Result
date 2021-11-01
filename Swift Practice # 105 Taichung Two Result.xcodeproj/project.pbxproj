@@ -3,27 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2D7D969A272FC1C4005F780C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D9699272FC1C4005F780C /* AppDelegate.swift */; };
 		2D7D969C272FC1C4005F780C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D969B272FC1C4005F780C /* SceneDelegate.swift */; };
-		2D7D969E272FC1C4005F780C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D969D272FC1C4005F780C /* ViewController.swift */; };
 		2D7D96A1272FC1C4005F780C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7D969F272FC1C4005F780C /* Main.storyboard */; };
 		2D7D96A3272FC1C4005F780C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7D96A2272FC1C4005F780C /* Assets.xcassets */; };
 		2D7D96A6272FC1C4005F780C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7D96A4272FC1C4005F780C /* LaunchScreen.storyboard */; };
+		2D7D96AF272FC29A005F780C /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 2D7D96AE272FC29A005F780C /* CodableCSV */; };
+		2D7D96B1272FD323005F780C /* TaiChung CSV Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D96B0272FD323005F780C /* TaiChung CSV Type.swift */; };
+		2D7D96B3272FDFFD005F780C /* 2021TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D96B2272FDFFD005F780C /* 2021TableViewController.swift */; };
+		2D7D96B7272FE3B8005F780C /* TC2021TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D96B6272FE3B8005F780C /* TC2021TableViewCell.swift */; };
+		2D7D96BA272FE94F005F780C /* TC2021NoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D96B9272FE94F005F780C /* TC2021NoTableViewController.swift */; };
+		2D7D96BC272FE99D005F780C /* TC2021NOTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D96BB272FE99D005F780C /* TC2021NOTableViewCell.swift */; };
+		2D7D96BF273035D0005F780C /* CTDistrictViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D96BE273035D0005F780C /* CTDistrictViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D7D9696272FC1C4005F780C /* Swift Practice # 105 Taichung Two Result.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Practice # 105 Taichung Two Result.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7D9699272FC1C4005F780C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D7D969B272FC1C4005F780C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2D7D969D272FC1C4005F780C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D7D96A0272FC1C4005F780C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D7D96A2272FC1C4005F780C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D7D96A5272FC1C4005F780C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D7D96A7272FC1C4005F780C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D7D96B0272FD323005F780C /* TaiChung CSV Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaiChung CSV Type.swift"; sourceTree = "<group>"; };
+		2D7D96B2272FDFFD005F780C /* 2021TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2021TableViewController.swift; sourceTree = "<group>"; };
+		2D7D96B6272FE3B8005F780C /* TC2021TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TC2021TableViewCell.swift; sourceTree = "<group>"; };
+		2D7D96B9272FE94F005F780C /* TC2021NoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TC2021NoTableViewController.swift; sourceTree = "<group>"; };
+		2D7D96BB272FE99D005F780C /* TC2021NOTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TC2021NOTableViewCell.swift; sourceTree = "<group>"; };
+		2D7D96BE273035D0005F780C /* CTDistrictViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTDistrictViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D7D96AF272FC29A005F780C /* CodableCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +68,44 @@
 		2D7D9698272FC1C4005F780C /* Swift Practice # 105 Taichung Two Result */ = {
 			isa = PBXGroup;
 			children = (
+				2D7D96BD27303303005F780C /* 2021 NO */,
+				2D7D96B8272FE8E7005F780C /* 2021 YES */,
+				2D7D96C027303EEA005F780C /* 2021DIstrict */,
+				2D7D96B0272FD323005F780C /* TaiChung CSV Type.swift */,
 				2D7D9699272FC1C4005F780C /* AppDelegate.swift */,
 				2D7D969B272FC1C4005F780C /* SceneDelegate.swift */,
-				2D7D969D272FC1C4005F780C /* ViewController.swift */,
 				2D7D969F272FC1C4005F780C /* Main.storyboard */,
 				2D7D96A2272FC1C4005F780C /* Assets.xcassets */,
 				2D7D96A4272FC1C4005F780C /* LaunchScreen.storyboard */,
 				2D7D96A7272FC1C4005F780C /* Info.plist */,
 			);
 			path = "Swift Practice # 105 Taichung Two Result";
+			sourceTree = "<group>";
+		};
+		2D7D96B8272FE8E7005F780C /* 2021 YES */ = {
+			isa = PBXGroup;
+			children = (
+				2D7D96B2272FDFFD005F780C /* 2021TableViewController.swift */,
+				2D7D96B6272FE3B8005F780C /* TC2021TableViewCell.swift */,
+			);
+			path = "2021 YES";
+			sourceTree = "<group>";
+		};
+		2D7D96BD27303303005F780C /* 2021 NO */ = {
+			isa = PBXGroup;
+			children = (
+				2D7D96B9272FE94F005F780C /* TC2021NoTableViewController.swift */,
+				2D7D96BB272FE99D005F780C /* TC2021NOTableViewCell.swift */,
+			);
+			path = "2021 NO";
+			sourceTree = "<group>";
+		};
+		2D7D96C027303EEA005F780C /* 2021DIstrict */ = {
+			isa = PBXGroup;
+			children = (
+				2D7D96BE273035D0005F780C /* CTDistrictViewController.swift */,
+			);
+			path = 2021DIstrict;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +124,9 @@
 			dependencies = (
 			);
 			name = "Swift Practice # 105 Taichung Two Result";
+			packageProductDependencies = (
+				2D7D96AE272FC29A005F780C /* CodableCSV */,
+			);
 			productName = "Swift Practice # 105 Taichung Two Result";
 			productReference = 2D7D9696272FC1C4005F780C /* Swift Practice # 105 Taichung Two Result.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +154,9 @@
 				Base,
 			);
 			mainGroup = 2D7D968D272FC1C3005F780C;
+			packageReferences = (
+				2D7D96AD272FC29A005F780C /* XCRemoteSwiftPackageReference "CodableCSV" */,
+			);
 			productRefGroup = 2D7D9697272FC1C4005F780C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,9 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D7D969E272FC1C4005F780C /* ViewController.swift in Sources */,
 				2D7D969A272FC1C4005F780C /* AppDelegate.swift in Sources */,
 				2D7D969C272FC1C4005F780C /* SceneDelegate.swift in Sources */,
+				2D7D96BA272FE94F005F780C /* TC2021NoTableViewController.swift in Sources */,
+				2D7D96B1272FD323005F780C /* TaiChung CSV Type.swift in Sources */,
+				2D7D96B3272FDFFD005F780C /* 2021TableViewController.swift in Sources */,
+				2D7D96BF273035D0005F780C /* CTDistrictViewController.swift in Sources */,
+				2D7D96B7272FE3B8005F780C /* TC2021TableViewCell.swift in Sources */,
+				2D7D96BC272FE99D005F780C /* TC2021NOTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +393,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2D7D96AD272FC29A005F780C /* XCRemoteSwiftPackageReference "CodableCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dehesa/CodableCSV";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D7D96AE272FC29A005F780C /* CodableCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D7D96AD272FC29A005F780C /* XCRemoteSwiftPackageReference "CodableCSV" */;
+			productName = CodableCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D7D968E272FC1C3005F780C /* Project object */;
 }
